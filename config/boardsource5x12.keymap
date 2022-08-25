@@ -37,10 +37,10 @@
             // |  SHFT |       |       |      |      |      |       |       |      |   [   |   ]   |   |   |
             // |  ESC  | MO(3) |  ALT  |  WIN |      | MUTE | PL/PS |       | PREV | VOLDN | VOLUP | NEXT  |
             bindings = <
-                &kp N1     &kp N2      &kp N3      &kp N4      &kp N5     &kp N6      &kp N7      &kp N8    &kp N9      &kp N0         &kp MINUS      &kp EQUAL
-                &kp F1     &kp F2      &kp F3      &kp F4      &kp F5     &kp F6      &kp F7      &kp F8    &kp F9      &kp F10        &kp F11        &kp F12
-                &kp LSHFT  &kp trans   &kp trans   &trans      &trans     &trans      &trans      &trans    &trans      &kp LBKT       &kp RBKT       &kp PIPE
-                &kp ESC    &mo 3       &kp LALT    &kp LGUI    &trans     &kp K_MUTE  &kp K_PP    &trans    &kp K_PREV  &kp K_VOL_DN   &kp K_VOL_UP   &kp K_NEXT
+                &kp N1     &kp N2   &kp N3      &kp N4      &kp N5     &kp N6      &kp N7      &kp N8    &kp N9      &kp N0         &kp MINUS      &kp EQUAL
+                &kp F1     &kp F2   &kp F3      &kp F4      &kp F5     &kp F6      &kp F7      &kp F8    &kp F9      &kp F10        &kp F11        &kp F12
+                &kp LSHFT  &trans   &kp trans   &trans      &trans     &trans      &trans      &trans    &trans      &kp LBKT       &kp RBKT       &kp PIPE
+                &kp ESC    &mo 3    &kp LALT    &kp LGUI    &trans     &kp K_MUTE  &kp K_PP    &trans    &kp K_PREV  &kp K_VOL_DN   &kp K_VOL_UP   &kp K_NEXT
             >;
         };
 
